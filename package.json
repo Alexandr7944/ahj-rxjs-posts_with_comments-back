@@ -1,0 +1,29 @@
+{
+  "name": "ahj-rxjs-posts_with_comments-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandr7944/ahj-rxjs-posts_with_comments-back.git"
+  },
+  "keywords": [],
+  "author": "A.S. Vasnev <sanek.vasnev@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandr7944/ahj-rxjs-posts_with_comments-back/issues"
+  },
+  "homepage": "https://github.com/Alexandr7944/ahj-rxjs-posts_with_comments-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "forever": "^4.0.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
+}
